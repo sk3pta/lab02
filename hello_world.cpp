@@ -1,12 +1,12 @@
 #include <iostream>
 
 int main() 
-{	//var uname contains username
+{	// Переменная uname содержит username
 	char uname[50] = "";
 
-	// getting uname from input stream
+	// Получаем uname from потока ввода
 	std::cin >> uname;
 
-	//printing out
+	//пеачтчаем   выа 
 	std::cout << "Hello,World! from  " <<uname << std::endl;
 }
