@@ -1,8 +1,8 @@
 #include <iostream>
-using namespace std;
+
 int main() 
 {
 	char uname[50] = "";
-	cin >> uname;
-cout << "Hello,World! from  " <<uname << endl;
+	std::cin >> uname;
+	std::cout << "Hello,World! from  " <<uname << std::endl;
 }
